@@ -3,6 +3,8 @@ package question3;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		//Parameterised Constructor
 		Car c1 = new Car("Harrier", "Tata", "black", 10000, 110, "tata", true);
 		
 		System.out.println("Car Model : "+c1.getModel());
@@ -14,6 +16,9 @@ public class Main {
 		System.out.println("Car Has Turbo : "+c1.getEngine().getHasTurbo());
 		
 		c1.getEngine().enableTurbo();
+		
+		//no-Argument Constructor
+		Car c2 = new Car();
 
 	}
 
